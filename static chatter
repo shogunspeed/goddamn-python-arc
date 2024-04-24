@@ -1,0 +1,57 @@
+#Static Chatter Test
+#Static Chatter Test
+
+#name
+name=input("I fancy that there is a distinguished gentleman in this room with us. May I have your name? ")
+print("Ah, I see. Nice to meet you Mr. "+name+", let us have a great experience today.")
+
+
+#price+tax calculating
+price=int(input("What's the price for your item? "))
+tax=10
+addtax=float(price/tax) #data in float
+final=int(price+addtax) #data in int
+print("You will have to pay "+str(final)+" because the additional tax with amount of "+str(addtax)+" (I don't know about your country inflation rate and government policies though.)")
+#final and addtax changed to str to concatenate with str (message)
+#printing multiple data types are recommended using , instead/
+
+
+#score rating
+score=int(input("What's your score this year? "))
+
+
+#solution2
+if score > 100:
+    print("Bro's fucking cheating ffs bruh")
+elif score == 100:
+    print("Damn bro, "+str(score)+" is literally an SS.")
+elif score >= 95:
+    print("tf osuhow you scored "+str(score)+"?? blud really is a tryhard or just cheated")
+elif score >= 90:
+    print("Zammnnnn a "+str(score)+", that's quite impressive dawg!")
+elif score >= 80:
+    print("a "+str(score)+"? i mean that's kinda mid but good work, ig...")
+elif score >= 70:
+    print(":aintnoway: you got a "+str(score)+" bro prolly didn't even prepare shits, get 'em brain workin'.")
+elif score < 70:
+    print("wow a goddamn "+str(score)+" huh i didn't think you were this of an L + skill issue + get noob + cope + seethe + mald + massive skill issue + ratio + cope harder")
+else:
+    print("")
+
+'''
+#solution1
+if(70<=score<80):
+    print("You barely pass bro.")
+elif(score < 70):
+    print("Truly a skill issue.")
+elif(80<=score<90):
+    print("Good work, ig...")
+elif(90<=score<94):
+    print("Impressive!")
+elif(score >= 95):
+    print("Avant garde!!!")
+else:
+    print("easter egg haha get noob")
+'''
+
+print("kms")
